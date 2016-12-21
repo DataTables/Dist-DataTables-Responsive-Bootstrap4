@@ -1,0 +1,29 @@
+{
+    "name": "datatables.net-responsive-bs4",
+    "version": "2.1.1",
+    "description": "Responsive for DataTables with styling for [Bootstrap 4](http://getbootstrap.com/)",
+    "files": [
+        "js/responsive.bootstrap4.js",
+        "css/responsive.bootstrap4.css"
+    ],
+    "main": "./js/responsive.bootstrap4.js",
+    "keywords": [
+        "responsive",
+        "DataTables",
+        "jQuery",
+        "table",
+        "Bootstrap 4"
+    ],
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
+    "author": {
+        "name": "SpryMedia Ltd",
+        "url": "http://datatables.net"
+    },
+    "dependencies": {
+        "jquery": ">=1.7",
+        "datatables.net-bs4": ">=1.10.13",
+        "datatables.net-responsive": ">=2.1.1"
+    }
+}
