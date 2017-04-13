@@ -28,6 +28,7 @@ table.dataTable.dtr-inline.collapsed > tbody > tr > th:first-child:before {
   box-shadow: 0 0 3px #444;
   box-sizing: content-box;
   text-align: center;
+  text-indent: 0 !important;
   font-family: 'Courier New', Courier, monospace;
   line-height: 14px;
   content: '+';
@@ -76,6 +77,7 @@ table.dataTable.dtr-column > tbody > tr > th.control:before {
   box-shadow: 0 0 3px #444;
   box-sizing: content-box;
   text-align: center;
+  text-indent: 0 !important;
   font-family: 'Courier New', Courier, monospace;
   line-height: 14px;
   content: '+';
