@@ -3,8 +3,8 @@
     "version": "2.1.1",
     "description": "Responsive for DataTables with styling for [Bootstrap 4](http://getbootstrap.com/)",
     "files": [
-        "js/responsive.bootstrap4.js",
-        "css/responsive.bootstrap4.css"
+        "css/**/*.css",
+        "js/**/*.js"
     ],
     "main": "./js/responsive.bootstrap4.js",
     "keywords": [
