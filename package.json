@@ -6,7 +6,7 @@
         "css/**/*.css",
         "js/**/*.js"
     ],
-    "main": "./js/responsive.bootstrap4.js",
+    "main": "js/responsive.bootstrap4.js",
     "keywords": [
         "responsive",
         "DataTables",
@@ -25,5 +25,6 @@
         "jquery": ">=1.7",
         "datatables.net-bs4": "^1.10.15",
         "datatables.net-responsive": "2.2.1"
-    }
+    },
+    "style": "css/responsive.bootstrap4.css"
 }
