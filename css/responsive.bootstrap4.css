@@ -16,10 +16,11 @@ table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th.dtr-control {
 }
 table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td.dtr-control:before,
 table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th.dtr-control:before {
-  top: 12px;
-  left: 4px;
+  top: 50%;
+  left: 5px;
   height: 14px;
   width: 14px;
+  margin-top: -9px;
   display: block;
   position: absolute;
   color: white;
@@ -45,7 +46,6 @@ table.dataTable.dtr-inline.collapsed.compact > tbody > tr > th.dtr-control {
 }
 table.dataTable.dtr-inline.collapsed.compact > tbody > tr > td.dtr-control:before,
 table.dataTable.dtr-inline.collapsed.compact > tbody > tr > th.dtr-control:before {
-  top: 5px;
   left: 4px;
   height: 14px;
   width: 14px;
