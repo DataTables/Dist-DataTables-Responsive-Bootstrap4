@@ -1,30 +1,47 @@
 {
     "name": "datatables.net-responsive-bs4",
+    "description": "Responsive for DataTables with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)",
+    "main": "js/responsive.bootstrap4.js",
+    "style": "css/responsive.bootstrap4.css",
     "version": "2.2.7",
-    "description": "Responsive for DataTables with styling for [Bootstrap 4](http://getbootstrap.com/)",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
-    "main": "js/responsive.bootstrap4.js",
     "keywords": [
-        "responsive",
-        "DataTables",
+        "Responsive",
+        "Bootstrap",
+ "Bootstrap4",
+        "Datatables",
         "jQuery",
         "table",
-        "Bootstrap 4"
+        "filter",
+        "sort"
     ],
-    "homepage": "https://datatables.net",
-    "bugs": "https://datatables.net/forums",
-    "license": "MIT",
+    "dependencies": {
+        "datatables.net-responsive": ">=2.2.7",
+        "datatables.net-bs4": ">=1.10.24",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
     "author": {
         "name": "SpryMedia Ltd",
         "url": "http://datatables.net"
     },
-    "dependencies": {
-        "jquery": ">=1.7",
-        "datatables.net-bs4": "^1.10.15",
-        "datatables.net-responsive": "2.2.7"
-    },
-    "style": "css/responsive.bootstrap4.css"
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DataTables/Dist-DataTables-Responsive-Bootstrap4.git"
+    }
 }
