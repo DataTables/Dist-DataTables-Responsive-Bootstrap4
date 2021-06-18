@@ -12,7 +12,7 @@
     "keywords": [
         "Responsive",
         "Bootstrap",
-        "Bootstrap4",
+ "Bootstrap4",
         "Datatables",
         "jQuery",
         "table",
@@ -20,9 +20,9 @@
         "sort"
     ],
     "dependencies": {
-        "jquery": ">=1.7",
-        "datatables.net-bs4": "^1.10.15",
-        "datatables.net-responsive": "2.2.9"
+        "datatables.net-responsive": ">=2.2.9",
+        "datatables.net-bs4": ">=1.10.26-dev",
+        "jquery": ">=1.7"
     },
     "moduleType": [
         "globals",
