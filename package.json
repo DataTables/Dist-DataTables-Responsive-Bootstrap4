@@ -2,12 +2,14 @@
     "name": "datatables.net-responsive-bs4",
     "description": "Responsive for DataTables with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)",
     "main": "js/responsive.bootstrap4.js",
+    "module": "js/responsive.bootstrap4.mjs",
     "style": "css/responsive.bootstrap4.css",
     "types": "./types/responsive.bootstrap4.d.ts",
     "version": "2.3.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
