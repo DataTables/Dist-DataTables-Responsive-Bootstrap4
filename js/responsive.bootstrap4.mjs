@@ -7,7 +7,6 @@ import DataTable from 'datatables.net-bs4';
 import Responsive from 'datatables.net-responsive';
 
 
-
 var _display = DataTable.Responsive.display;
 var _original = _display.modal;
 var _modal = $(
