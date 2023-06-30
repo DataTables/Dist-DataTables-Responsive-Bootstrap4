@@ -4,7 +4,7 @@
     "main": "js/responsive.bootstrap4.js",
     "module": "js/responsive.bootstrap4.mjs",
     "style": "css/responsive.bootstrap4.css",
-    "types": "./types/types.d.ts",
+    "types": "./types/responsive.bootstrap4.d.ts",
     "version": "2.4.1",
     "files": [
         "css/**/*.css",
@@ -15,7 +15,7 @@
     "keywords": [
         "Responsive",
         "Bootstrap",
-        "Bootstrap4",
+ "Bootstrap4",
         "Datatables",
         "jQuery",
         "table",
@@ -23,8 +23,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-responsive": ">=2.3.0",
-        "datatables.net-bs4": ">=1.12.1",
+        "datatables.net-responsive": ">=2.4.1",
+        "datatables.net-bs4": ">=1.13.4",
         "jquery": ">=1.7"
     },
     "moduleType": [
